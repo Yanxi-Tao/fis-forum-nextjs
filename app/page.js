@@ -1,9 +1,29 @@
 // 'use client';
+import { Box,Drawer,Toolbar } from '@mui/material';
 
-export default function Home() {
+const drawerWidth = 240;
+
+export default function Discovery() {
   return (
     <main>
-      Hello World
+      <Box sx={{ boxShadow: 3 }}>
+        <Drawer
+          sx={{
+            width: drawerWidth,
+            flexShrink: 0,
+            '& .MuiDrawer-paper': {
+              width: drawerWidth,
+              boxSizing: 'border-box',
+            },
+          }}
+          variant="permanent"
+          anchor="left"
+          elevation={3}
+        >
+          <Toolbar />
+          hello
+        </Drawer>
+      </Box>
     </main>
   );
 }

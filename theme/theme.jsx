@@ -1,5 +1,11 @@
 "use client"
 
-const themeOptions = {}
+const themeOptions = {
+  palette: {
+    primary: {
+      main: "#a40033"
+    }
+  }
+}
 
 export default themeOptions

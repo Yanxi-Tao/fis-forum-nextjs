@@ -1,10 +1,10 @@
 'use client'
 
-import CssBaseline from '@mui/material/CssBaseline'
-import { createTheme, ThemeProvider } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline';
+import { createTheme,ThemeProvider } from '@mui/material/styles';
 // import { Roboto } from "next/font/google";
-import { NextAppDirEmotionCacheProvider } from './EmotionCache'
-import themeOptions from './theme'
+import { NextAppDirEmotionCacheProvider } from './EmotionCache';
+import themeOptions from './theme';
 
 // const roboto = Roboto({
 //   weight: ["300", "400", "500", "700"],
