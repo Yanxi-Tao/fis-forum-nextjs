@@ -1,17 +1,17 @@
-"use client"
+'use client'
 
 const themeOptions = {
   palette: {
     background: {
-      default: "#a40033"
+      default: '#a40033',
     },
     primary: {
-      main: "#a40033"
+      main: '#a40033',
     },
     secondary: {
-      main: "#fff"
-    }
-  }
+      main: '#fff',
+    },
+  },
 }
 
 export default themeOptions
